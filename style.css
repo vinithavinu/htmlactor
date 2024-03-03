@@ -3,13 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: azure;
+}
 h2{
     text-align: center;
     color: blue;
     text-shadow: 0px 2px 2px brown;
-    border: 4px solid brown;
-    font-size: 4rem;
+    border-width: 0px 0px 3px;
+    border-color: brown;
+    border-style: double;
+    font-size: 3rem;
+    padding: 5px 0px 15px;
+    background-color: aquamarine;
 }
 p{
     margin: 30px 20px ;
@@ -18,7 +24,14 @@ p{
     text-align: justify;
     background-color: rgb(250, 230, 205);
     padding: 10px 20px 10px;
+    border: 2px solid black;
+    border-radius: 15px;
     font-family: 'Poppins',sans-serif;
+    width: 800px;
+    line-height: 2rem;
+}
+span{
+    color: crimson;
 }
 img{
     height: 600px;
@@ -31,4 +44,5 @@ img{
 }
 .container{
     display: flex;
+    justify-content: center;
 }
